@@ -1,0 +1,195 @@
+.signup-form-div{
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.signup-form-heading{
+    font-weight: bolder;
+    font-size: 2.45em;
+}
+
+.signup-form-nav{
+    margin: 10px 0;
+}
+
+.signup-form-item{
+    margin: 5px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.signup-form-link{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.85em;
+    font-weight: normal;
+}
+
+.signup-form-item-slider{
+    width: 100%;
+    height: 2.5px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -16px;
+}
+
+.signup-form-item-slider-ON{
+    background-color:crimson;
+}
+
+/* Signup Form */
+
+.signup-form{
+    padding: 20px 5px;
+}
+
+.signup-form .heading-1{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.signup-form .heading-2{
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.signup-form .heading-3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.signup-form label{
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: #626262;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.signup-form .form-control{
+    /* margin-top: 0.25em;
+    margin-bottom: 0.25em; */
+}
+
+label{
+    margin-bottom: 8px;
+}
+label span{
+    font-size: 0.62rem;
+    font-family: 300;
+    text-transform:none;
+    color: rgb(156, 156, 156);
+}
+
+input[type="radio"]+label{
+    font-weight: 600;
+    color:black;
+}
+
+.input-tag-div{
+
+}
+
+.tag-add-button{
+    border: 1px solid #ced4da;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    cursor: pointer;
+}
+.tags{
+    padding: 5px 1px 3px;
+    margin: 3px 0px;
+}
+.tag{
+    border: 1px solid #ced4da;
+    background-color: #ced4da;
+    padding: 3px;
+    border-radius: 3px;
+}
+.tag .tag-text{
+    color:#484848;
+    font-size: 0.85rem;
+    margin-right: 2px;
+}
+
+.tag .tag-close-btn{
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.tag-selector{
+    border: 1px solid #ced4da;
+    padding: 8px 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+.tag-option{
+    padding: 2px 5px;
+}
+
+.tag-selector .close-btn{
+    text-align: center;
+    color:rgb(219, 101, 101);
+    cursor: pointer;
+    font-size: 0.85rem;
+    background-color: #ffe1e1;
+
+}
+
+.tag-selector .add-btn{
+    text-align: center;
+    color:rgb(231, 231, 231);
+    cursor: pointer;
+    font-size: 0.85rem;
+    background-color: rgb(58, 91, 161);
+
+}
+
+.signup-form .input-group-text{
+    background-color: white;
+}
+
+.signup-form .next-btn{
+    background-color:rgb(82, 16, 187);
+    padding: 0.6rem 2rem;
+    color:white;
+}
+
+.signup-form .next-btn:hover, .signup-form .next-btn:active{
+    background-color: rgb(93, 59, 146);
+}
+
+.signup-form .prev-btn{
+    background-color:rgb(231, 231, 231);
+    padding: 0.6rem 1.6rem;
+    color:rgb(114, 114, 114);
+    border:0.5px solid rgb(189, 189, 189);
+}
+
+.signup-form .prev-btn:hover, .signup-form .prev-btn:active{
+    color: rgb(56, 56, 56);
+    border:0.5px solid rgb(189, 189, 189);
+}
+
+.signup-form .submit-btn{
+    background-color:rgb(8, 99, 36);
+    padding: 0.6rem 2rem;
+    color:rgb(255, 255, 255);
+}
+
+.signup-form .submit-btn:hover, .signup-form .submit-btn:active{
+    background-color:rgb(31, 119, 57);
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 670px;
+        margin: 1.75rem auto;
+        padding: 0.6rem 2rem;
+    }
+}

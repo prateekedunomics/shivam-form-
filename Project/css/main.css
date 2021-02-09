@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.navbar-div{
+    background-color: white;
+    border-bottom: 1.2px solid #80808057;
+}
+
+nav{
+    
+}
+
+nav .links{
+    font-weight: 500;
+    color:black;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 1.15rem;
+    margin: 0 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:active{
+    color:crimson;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color:crimson;
+    /* background-color: #f0d8fc; */
+}
+
+nav .navbar-brand{
+    font-weight: bolder;
+    color:rgb(82, 16, 187) !important;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+
+/* General */
+
+body{
+    background-color: #fafafa;
+}
+
+hr.solid {
+    border-top: 1.2px solid #bbb;
+    margin: 0;
+}
+hr.small {
+    border-top: 1.2px solid #bbb;
+    margin: 0;
+    width: 200px;
+}
+
+.brand-name{
+    font-weight: bolder;
+    color:rgb(82, 16, 187) !important;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+
+/* Form */
+
+.form-group{
+    position: relative;
+}
+
+.form-group.form-required-field::after{
+    color: #f55753;
+    content: "*";
+    font-family: arial;
+    font-size: 20px;
+    position: absolute;
+    right: 0.5rem;
+    top: 1.8rem;
+    display: inline-block;
+}
+
+.input-tag-div.form-required-field::after{
+    color: #f55753;
+    content: "*";
+    font-family: arial;
+    font-size: 20px;
+    position: absolute;
+    right: 0.5rem;
+    top: 2.5rem;
+    display: inline-block;
+}
+
+.social-icons{
+    font-size: 1.3rem;
+}
